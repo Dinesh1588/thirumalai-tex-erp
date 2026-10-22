@@ -30,3 +30,7 @@ nav button:hover,nav button.active{background:color-mix(in srgb,var(--accent) 11
  .mobile-more-sheet .mobile-signout{color:#BD4A48}
  .content{padding-bottom:30px}
 }
+
+/* Client-ready ERP modules */
+.ops{display:flex;flex-direction:column;gap:22px}.ops .formpanel form{display:flex;flex-direction:column;gap:18px}.ops .formpanel form>.primary{align-self:flex-start}.ops-actions{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0}.ops .metrics{margin-top:20px;margin-bottom:18px}.ops .panel{min-width:0}.ops .tablewrap{max-width:100%;overflow-x:auto}.ops td{white-space:nowrap}.ops .secondary{display:inline-flex;align-items:center;gap:8px}
+@media(max-width:760px){.ops-actions{display:grid;grid-template-columns:1fr 1fr}.ops-actions button{font-size:11px;white-space:normal;justify-content:center}.ops .formpanel form>.primary{width:100%;justify-content:center}}
